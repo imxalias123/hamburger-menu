@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.sm-about-img {
+  display: flex;
+}
+.lg-about-img {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .sm-about-img {
+    display: none;
+  }
+  .lg-about-img {
+    display: flex;
+  }
+}

@@ -14,3 +14,11 @@
     display: flex;
   }
 }
+.about-container {
+  min-height: 100vh;
+}
+.about-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
